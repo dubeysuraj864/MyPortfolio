@@ -15,7 +15,7 @@ function About() {
             <div className="text-2xl mt-20 text-green-500  my-4 font-bold">
               About Me
             </div>
-            <div className=" text-left m-10 text-sm">
+            <div className=" text-left m-10 font-light text-sm">
               Hello! My name is Suraj Dubey and I am a UX/UI designer and Full
               Stack Developer. I enjoy creating things that live on the
               internet. And experienced Software Engineer with a demonstrated
@@ -25,7 +25,7 @@ function About() {
               and beautiful web pages. I have been in the field for nearly 2
               years, and have been loving every minute of it. <br /> <br /> Here
               are a few technologies I’ve been working with recently:
-              <div className=" mt-2">
+              <div className=" mt-2 font-light word--2">
                 <div>
                   <li>Vue Js & React Js</li>
                   <li>HTML</li>

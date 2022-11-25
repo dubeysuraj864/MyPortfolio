@@ -7,7 +7,7 @@ function Navbar() {
   const[show, setShow] = useState(false);
   return (
     <div>
-      <nav className="relative bg-green-100 pt-4 flex-col justify-center items-center w-full ">
+      <nav className="relative bg-green-100 pt-4 flex-col justify-center items-center w-full pb-5 ">
         <span className=" absolute right-8 top-8">
           <Link
             to="/"

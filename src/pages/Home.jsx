@@ -1,4 +1,4 @@
-import Me from "../images/me.png";
+import Me from "../images/me2.png";
 import Eclipse2 from "../images/Ellipse2.png";
 import About from "./About";
 
@@ -27,7 +27,7 @@ function Home() {
             <div className=" absolute mr-10 mt-10 border-green-400 hover:transition-all border-2 rounded-2xl w-72 h-96 "></div>
             <img
               src={Me}
-              className=" shadow-2xl z-10 rounded-2xl mr-auto ml-auto w-72 h-96 object-cover"
+              className=" shadow-2xl z-10 rounded-2xl mr-auto ml-auto w-72 h-96 object-cover "
               alt=""
             />
           </div>
