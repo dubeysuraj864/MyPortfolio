@@ -4,7 +4,7 @@ import Github from "../images/github.png";
 
 
 function Navbar() {
-  const[show, setShow] = useState(true);
+  const[show, setShow] = useState(false);
   return (
     <div>
       <nav className="relative bg-green-100 pt-4 flex-col justify-center items-center w-full ">
