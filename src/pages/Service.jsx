@@ -10,7 +10,7 @@ function Service() {
         {/* <span className="text-green-500 font-bold text-2xl align-center mt-12">
           What I Do
         </span> */}
-        <div className="flex-col justify-center my-10">
+        <div className="flex-col justify-center my-0">
           <div className="m-4   p-4   flex items-center transition rounded-xl border -gray-100">
             <img
               src={UiUx}

@@ -27,7 +27,7 @@ function Home() {
             <div className=" absolute mr-10 mt-10 border-green-400 hover:transition-all border-2 rounded-2xl w-72 h-96 "></div>
             <img
               src={Me}
-              className=" shadow-2xl z-10 rounded-2xl mr-auto ml-auto w-72 h-96 object-cover "
+              className=" transform shadow-2xl z-10 rounded-2xl mr-auto ml-auto w-72 h-96 object-cover "
               alt=""
             />
           </div>
@@ -46,14 +46,14 @@ function Home() {
               India. I Love designing and coding, creating and building holy
               stuff.
             </p>
-            <button className="px-4 animate-bounce  py-2 my-2 rounded-2xl bg-green-400">
+            <button className="px-4  py-2 my-2 rounded-2xl bg-green-400">
               {" "}
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/suraj-dubey-584a61246"
                 rel="noreferrer"
               >
-                Hire Me :)
+                Hire Me
               </a>
             </button>
           </div>

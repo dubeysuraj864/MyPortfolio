@@ -16,15 +16,15 @@ function Navbar() {
             WebShine
           </Link>
         </span>
-        <span onClick={() => {setShow(!show)}} className="absolute left-8 top-8">
-          <Link to="/" className="  text-2xl font-bold text-green-500 ">
+        <span onClick={() => {setShow(!show)}} className="absolute left-8 top-7">
+          <Link to="/" className="  text-2xl  font-bold text-green-500 ">
             <div className="w-10 my-1 h-2 bg-green-500 rounded-lg"></div>
             <div className="w-10 my-1 h-1 bg-green-500 rounded-lg"></div>
             <div className="w-10 my-1 h-2 bg-green-500 rounded-lg"></div>
           </Link>
         </span>
 
-        <div className="flex-col justify-center ml-auto mr-auto items-center mt-16 flex text-left text-xl p-4 mt-4">
+        <div className=" mt-16 flex text-left text-xl p-4 mt-4">
          {
           show ? 
           <ul >
