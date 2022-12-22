@@ -15,6 +15,10 @@
 display: none;
 } */
 
+.hero-transparent{
+    background: linear-gradient(to right, rgb(180, 255, 201),rgb(188, 247, 205), rgba(144, 194, 144, 0));
+}
+
 .App{
     font-family: 'Marck Script', cursive;
 font-family: 'Poppins', sans-serif;
@@ -26,8 +30,11 @@ font-family: 'Poppins', sans-serif;
 
 
 @media (max-width: 640px) {
+    .hero-transparent{
+        background: linear-gradient(to top, rgb(180, 255, 201),rgb(188, 247, 205), rgba(144, 194, 144, 0));
+    }
     .open{
-        height: 300px;
+        height: 360px;
         transition: height ease 0.3s;
     }
     .close{

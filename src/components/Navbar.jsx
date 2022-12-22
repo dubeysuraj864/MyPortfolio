@@ -6,25 +6,42 @@ function Navbar() {
   return (
     <>
       <div data-aos="fade-up">
-        <nav className="p-6 font-semibold  bg-green-500 md:bg-green-100 md:text-black  sm:flex sm:justify-around sm:items-center sm:py-5 text-white">
-          <div className="logo flex text-white md:text-black justify-between font-bold text-3xl">
-           <Link to="/">
-           
-           Portfolio</Link>
-            <span
-              onClick={() => {
-                setShow(!show);
-              }}
-              className="sm:hidden"
-            >
-              <div className="bg-white w-8 h-1 m-1 rounded-2xl"></div>
-              <div className="bg-white w-8 h-2 m-1 rounded-2xl"></div>
-              <div className="bg-white w-8 h-1 m-1 rounded-2xl"></div>
-            </span>
-          </div>
+        <nav className="p-6 font-semibold md:bg-[#b4ffc9] md:text-black  md:flex md:justify-around md:items-center md:py-5 text-white">
+       {
+        show ?    <div className="logo flex text-black md:text-black justify-between font-bold text-3xl bg-clip-text bg-gradient-to-r from-black  to-blue-600 text-transparent">
+        <Link to="/">
+        
+        Portfolio</Link>
+         <span
+           onClick={() => {
+             setShow(!show);
+           }}
+           className="sm:hidden"
+         >
+           <div className="bg-black w-8 h-2 m-1 transition-all rounded-2xl"></div>
+           <div className="bg-black w-8 h-1 ml-5 transition-all m-1 rounded-2xl"></div>
+           <div className="bg-black w-8 h-2 m-1 transition-all rounded-2xl"></div>
+         </span>
+       </div>
+       :    <div className="logo flex text-white md:text-black justify-between font-bold text-3xl ">
+       <Link to="/">
+       
+       Portfolio</Link>
+        <span
+          onClick={() => {
+            setShow(!show);
+          }}
+          className="sm:hidden"
+        >
+          <div className="bg-white w-8 h-3 m-1 transition-all rounded-2xl"></div>
+          <div className="bg-white w-8 h-1 m-1 transition-all rounded-2xl"></div>
+          <div className="bg-white w-8 h-2 m-1 transition-all rounded-2xl"></div>
+        </span>
+      </div>
+       }
 
           {show ? (
-            <div className="open">
+            <div className="open text-black">
               <div className="nav-links py-5 sm:py-0 list-none sm:flex transition-all ">
                 <li className="py-3 sm:py-0">
                   <Link className="p-4  hover:text-white md:hover:text-green-400" to="/">
@@ -51,7 +68,7 @@ function Navbar() {
                 <div className="py-5 sm:py-0">
                 
                   <Link
-                    className=" bg-white md:bg-green-500 text-black rounded-full px-7 py-3"
+                    className=" bg-black text-white md:bg-green-500 text-black rounded-full px-7 py-3"
                     to="/"
                   >
                     Resume
@@ -60,6 +77,7 @@ function Navbar() {
               </div>
             </div>
           ) : (
+
             <div className="close">
               <div className="nav-links py-5 sm:py-0 list-none sm:flex transition-all ">
                 <li>
