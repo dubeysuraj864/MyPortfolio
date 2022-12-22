@@ -1,19 +1,20 @@
 import Medtu from "../images/medtu.png";
-import wave from "../images/wave.png";
 function About() {
   return (
     <>
-      <div className="about ">
-        <div className="container text-center flex-col justify-center items-center py-20  relative">
-          <div className="left m-5 pb-20">
-            <div className="absolute transition-all  m-10  w-72 h-72 rounded-2xl ">
-              <img src={Medtu} className="rounded-2xl shadow-2xl" alt="" />
-            </div>
-            <div className="border-green-400  hover:transition-all border-2 p-4 w-72 h-72 rounded-2xl"></div>
+      <div className="about">
+        <div className="container text-center flex-col justify-center items-center py-20 md:py-0  relative md:flex md:flex-row md:justify-center md:items-center md:p-0 md:m-auto">
+          <div className="left m-5 pb-20 md:w-1/3 md:p-0  md:flex md:flex-row md:justify-center md:items-center">
+            <img
+              src={Medtu}
+              className="shadow-2xl absolute transition-all  m-10  w-72 h-72 rounded-2xl md:flex md:justify-center"
+              alt=""
+            />
+
+            <div className="border-green-400 ml-20 mt-20 hover:transition-all border-2 p-4 w-72 h-72 rounded-2xl"></div>
           </div>
-          <div className="right relative w-auto pb-10 pt-2 rounded-2xl "> 
-          {/* <img src={wave} className="absolute opacity-30 rounded-t-2xl  -z-10 w-full h-full" alt="" /> */}
-            <div className="text-2xl text-green-400  py-2 mt-10 text-brown-500 my-4 font-bold ">
+          <div className="right relative w-auto pb-10 pt-2 rounded-2xl md:w-1/2 md:p-0">
+            <div className="my-10 text-3xl font-bold md:text-6xl">
               About Me
             </div>
             <div className=" px-4 text-left text-md m-5 font-light text-sm">
@@ -39,7 +40,6 @@ function About() {
                     <li>Git & GitHub</li>
                   </div>
                 </div>
-           
               </div>
             </div>
           </div>

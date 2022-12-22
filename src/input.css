@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .open{
+    height: 300px;
+    transition: height ease 0.3s;
+}
+.close{
+    height: 0px;
+    transition: height ease 0.3s;
+}
+.close .nav-links{
+    transition: height ease 0.3s;
+display: none;
+} */
+
+.App{
+    font-family: 'Marck Script', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.logo{
+    font-family: 'Marck Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 640px) {
+    .open{
+        height: 300px;
+        transition: height ease 0.3s;
+    }
+    .close{
+        height: 0px;
+        transition: height ease 0.3s;
+    }
+    .close .nav-links{
+        transition: height ease 0.3s;
+    display: none;
+    }
+   
+}
