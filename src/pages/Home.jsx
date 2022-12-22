@@ -28,14 +28,14 @@ function Home() {
               alt=""
             />
           </div>
-          <div className="left w-full px-10 text-center md:text-left h-full mx-0 my-20 md:px-auto md:w-3/5 md:h-3/4 z-10 md:flex md:justify-end">
-            <div className="w-4/5 ">
+          <div className="left w-full px-0 text-center md:text-left h-full my-20 md:p-0 md:w-3/5 md:h-3/4 z-10 md:flex md:justify-end md:ml-20">
+            <div className="w-4/5 m-auto">
               <div className="text-xl  font-bold md:text-2xl text-green-400 ">
                 Hi, I'm
               </div>
               <div className="text-4xl font-bold  "></div>
               {/* bg-clip-text bg-gradient-to-r from-green-400  to-blue-600 text-transparent */}
-              <div className="text-5xl font-black md:text-6xl py-2 ">
+              <div className="text-5xl font-bold md:text-7xl py-2 ">
                 Suraj Dubey
               </div>
               <p className="w-full my-2  md:w-5/5 text-gray-700">
@@ -57,7 +57,6 @@ function Home() {
           </div>
         </div>
       </div>
-      
     </>
   );
 }
