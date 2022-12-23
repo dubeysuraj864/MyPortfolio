@@ -4,15 +4,15 @@ import Linkedin from "../images/linkedin.png";
 function Footer() {
   return (
     <>
-      <div className="footer flex flex-col justify-center pt-20 bg-gradient-to-b from-[#b4ffc9] to-white  md:bg-green-400">
-        <div className="flex-col justify-between items-center bg-green-500 p-10 rounded-2xl w-fit ml-auto mr-auto mb-16 text-white md:w-3/4 md:flex-row md:flex">
+      <div className="footer flex flex-col justify-center pt-20 bg-blue-200 px-2 rounded-t-2xl md:bg-gray-200">
+        <div className="flex-col justify-between items-center bg-white p-10 rounded-2xl w-fit ml-auto mr-auto mb-16 md:w-3/4 md:flex-row md:flex">
           <div className="left mr-10 ">
             <div className="text-2xl md:text-4xl md:font-bold my-2">Have any project in mind?</div>
             <div className="text-sm font-light my-2">
               Let’s work together and I will help you by all my best.
             </div>
           </div>
-          <div className="animate-bounce  text-green-600 bg-white py-2 px-4 rounded-xl cursor-pointer mt-8">
+          <div className="animate-bounce  text-white bg-black py-2 px-4 rounded-xl cursor-pointer mt-8">
             Let's talk
           </div>
         </div>

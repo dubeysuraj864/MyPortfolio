@@ -10,11 +10,11 @@ function App() {
   return (
     <>
     
-    <div className="App text-black">
+    <div className="App text-black subpixel-antialiased">
      
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navbar className="z-30" />}>
+          <Route path="/" element={<Navbar className="z-30 drop-shadow-md" />}>
             <Route index element={<Home/>} />
             <Route path="/about" element={<About />} />
             <Route path="/service" element={<Service />} />

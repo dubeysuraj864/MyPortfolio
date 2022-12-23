@@ -6,6 +6,7 @@ import Card3 from "../images/card4.png";
 function Mywork() {
   const [content, setContent] = useState(
     <Card
+    style="w-full md:w-4/6 ml-auto mr-auto   border-gray-200 border-2 flex-col justify-center-center rounded-3xl my-3 py-5 md:flex md:justify-center md:flex-row md:items-center"
       title="UI/UX Design"
       content="Research, Design, Prototypes and Animation."
       image={Card1}
@@ -25,6 +26,7 @@ function Mywork() {
               setContent(
                 <Card
                   title="UI/UX Design"
+                  style="w-full md:w-4/6 ml-auto mr-auto   border-gray-200 border-2 flex-col justify-center-center rounded-3xl my-3 py-5 md:flex md:justify-center md:flex-row md:items-center"
                   content="Research, Design, Prototypes and Animation."
                   image={Card1}
                 />
@@ -38,7 +40,9 @@ function Mywork() {
             onClick={() =>
               setContent(
                 <Card
-                  title="Front-End Development"
+                style="w-full md:w-4/6 ml-auto mr-auto   border-gray-200 border-2 flex-col justify-center-center rounded-3xl my-3 py-5 md:flex md:justify-center md:flex-row md:items-center"
+               
+                title="web Design"
                   content="Implement UX design into live and user friendly."
                   image={Card2}
                 />
@@ -52,7 +56,8 @@ function Mywork() {
             onClick={() =>
               setContent(
                 <Card
-                  title="Responsive Design"
+                title="Front-End Development"
+                style="w-full md:w-4/6 ml-auto mr-auto   border-gray-200 border-2 flex-col justify-center-center rounded-3xl my-3 py-5 md:flex md:justify-center md:flex-row md:items-center"
                   content="I build landing pages and responsive websites and web App."
                   image={Card3}
                 />
