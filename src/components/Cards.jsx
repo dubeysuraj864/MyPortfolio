@@ -1,7 +1,7 @@
 /* eslint-disable react/style-prop-object */
-import Card1 from "../images/card1.png";
-import Card2 from "../images/card2.png";
-import Card3 from "../images/card3.png";
+import Card1 from "../images/card1.webp";
+import Card2 from "../images/card2.webp";
+import Card3 from "../images/card3.webp";
 import Card from "./Card";
 function Cards() {
     return ( <div className="">

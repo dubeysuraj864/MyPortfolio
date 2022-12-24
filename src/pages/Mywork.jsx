@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Card from "../components/Card";
-import Card1 from "../images/card4.png";
-import Card2 from "../images/card4.png";
-import Card3 from "../images/card4.png";
+import Card1 from "../images/card4.webp";
+import Card2 from "../images/card4.webp";
+import Card3 from "../images/card4.webp";
 function Mywork() {
   const [content, setContent] = useState(
     <Card

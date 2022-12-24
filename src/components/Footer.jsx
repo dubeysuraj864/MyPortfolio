@@ -1,5 +1,5 @@
-import Instagram from "../images/instagram.png";
-import Linkedin from "../images/linkedin.png";
+import Instagram from "../images/instagram.webp";
+import Linkedin from "../images/linkedin.webp";
 
 function Footer() {
   return (

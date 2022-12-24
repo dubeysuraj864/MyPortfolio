@@ -1,6 +1,6 @@
-import UiUx from "../images/uiux.png";
-import Frontend from "../images/frontend.png";
-import Responsive from "../images/responsive.png";
+import UiUx from "../images/uiux.webp";
+import Frontend from "../images/frontend.webp";
+import Responsive from "../images/responsive.webp";
 import Cards from "../components/Cards";
 
 function Service() {

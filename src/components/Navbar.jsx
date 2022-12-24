@@ -1,12 +1,13 @@
 import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
+import Github from "../images/github.webp";
 
 function Navbar() {
   const [show, setShow] = useState(false);
   return (
     <>
       <div data-aos="fade-up  " className="">
-        <nav className="px-6 p-6 shadow-sm  md:text-black  md:flex md:justify-around md:items-center md:py-5 text-white ">
+        <nav className="px-6 p-6  shadow-sm  md:text-black  md:flex md:justify-around md:items-center md:py-5 text-white ">
           {show ? (
             <div className="logo flex text-black font-semibold md:text-black justify-between text-3xl bg-clip-text bg-gradient-to-r from-black to-blue-600 text-transparent">
               <Link to="/">Portfolio.</Link>
@@ -38,11 +39,11 @@ function Navbar() {
           )}
 
           {show ? (
-            <div className="open text-gray-800">
+            <div className="open text-gray-800 ">
               <div className="nav-links py-5 md:py-0 list-none md:flex transition-all ">
                 <li className="py-3 md:py-0">
                   <Link
-                    className="  hover:border-black hover:border-b-2 w-fit normal mx-5 px-0 py-1   transition-all"
+                    className=" w-fit normal mx-5 px-0 py-1   transition-all"
                     to="/"
                   >
                     Home
@@ -51,7 +52,7 @@ function Navbar() {
                 <li className="py-3 md:py-0">
                   {" "}
                   <Link
-                    className="hover:border-black hover:border-b-2 w-fit font-normal mx-5 px-0 py-1  transition-all"
+                    className=" w-fit font-normal mx-5 px-0 py-1  transition-all"
                     to="/about"
                   >
                     About
@@ -59,7 +60,7 @@ function Navbar() {
                 </li>
                 <li className="py-3 md:py-0">
                   <Link
-                    className="   hover:border-black hover:border-b-2 w-fit font-normal mx-5 px-0 py-1 transition-all"
+                    className="  w-fit font-normal mx-5 px-0 py-1 transition-all"
                     to="/service"
                   >
                     Service
@@ -68,28 +69,26 @@ function Navbar() {
                 <li className="py-3 md:py-0">
                   {" "}
                   <Link
-                    className="  hover:border-black hover:border-b-2 w-fit font-normal mx-5 px-0 py-1 transition-all"
+                    className=" w-fit font-normal mx-5 px-0 py-1 transition-all"
                     to="/mywork"
                   >
                     My work
                   </Link>
                 </li>
-                <div className="py-5 md:py-0">
-                  <Link
-                    className=" bg-gray-800 w-32 hover:border-gray-800 border-transparent transition-all border-2 hover:text-black hover:bg-white text-white rounded-full px-5 py-2"
-                    to="/"
-                  >
-                    Resume
-                  </Link>
+                <div className="  mx-5 my-2 md:mx-0 md:my-0 md:py-0">
+                  <a href="https://github.com/dubeysuraj864" target="_blank" rel="noopener noreferrer">
+                    {" "}
+                    <img src={Github} className="w-8 " alt="" />
+                  </a>
                 </div>
               </div>
             </div>
           ) : (
             <div className="close text-gray-800">
-              <div className="nav-links py-5 md:py-0 list-none md:flex transition-all ">
+              <div className="nav-links py-5 md:py-0 list-none md:flex md:items-center transition-all ">
                 <li className="py-3 md:py-0">
                   <Link
-                    className="  hover:border-black hover:border-b-2 w-fit normal mx-5 px-0 py-1   transition-all"
+                    className=" w-fit normal mx-5 px-0 py-1   transition-all"
                     to="/"
                   >
                     Home
@@ -98,7 +97,7 @@ function Navbar() {
                 <li className="py-3 md:py-0">
                   {" "}
                   <Link
-                    className="hover:border-black hover:border-b-2 w-fit font-normal mx-5 px-0 py-1  transition-all"
+                    className=" w-fit font-normal mx-5 px-0 py-1  transition-all"
                     to="/about"
                   >
                     About
@@ -106,7 +105,7 @@ function Navbar() {
                 </li>
                 <li className="py-3 md:py-0">
                   <Link
-                    className="   hover:border-black hover:border-b-2 w-fit font-normal mx-5 px-0 py-1 transition-all"
+                    className="    w-fit font-normal mx-5 px-0 py-1 transition-all"
                     to="/service"
                   >
                     Service
@@ -115,19 +114,17 @@ function Navbar() {
                 <li className="py-3 md:py-0">
                   {" "}
                   <Link
-                    className="  hover:border-black hover:border-b-2 w-fit font-normal mx-5 px-0 py-1 transition-all"
+                    className="   w-fit font-normal mx-5 px-0 py-1 transition-all"
                     to="/mywork"
                   >
                     My work
                   </Link>
                 </li>
-                <div className="py-5 md:py-0">
-                  <Link
-                    className=" bg-gray-800 w-32 hover:border-gray-800 border-transparent transition-all border-2 hover:text-black hover:bg-white text-white rounded-full px-5 py-2"
-                    to="/"
-                  >
-                    Resume
-                  </Link>
+                <div className=" mx-5 my-2 md:mx-0 md:my-0  md:py-0">
+                  <a href="https://github.com/dubeysuraj864" target="_blank" rel="noopener noreferrer">
+                    {" "}
+                    <img src={Github} className="w-8 " alt="" />
+                  </a>
                 </div>
               </div>
             </div>

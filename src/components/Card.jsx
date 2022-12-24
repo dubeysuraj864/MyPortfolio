@@ -1,4 +1,4 @@
-import Arrow from "../images/arrow.png";
+import Arrow from "../images/arrow.webp";
 
 function Card(props) {
   return (
