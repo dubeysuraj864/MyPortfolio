@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     
-    <div className="App text-black subpixel-antialiased">
+    <div className="App">
      
       <BrowserRouter>
         <Routes>
