@@ -6,7 +6,6 @@ function Navbar() {
   return (
     <>
       <div data-aos="fade-up  " className="">
-        {/* md:bg-[#b4ffc9] */}
         <nav className="px-6 p-6 shadow-sm  md:text-black  md:flex md:justify-around md:items-center md:py-5 text-white ">
           {show ? (
             <div className="logo flex text-black font-semibold md:text-black justify-between text-3xl bg-clip-text bg-gradient-to-r from-black to-blue-600 text-transparent">

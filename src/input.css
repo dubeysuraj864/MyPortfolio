@@ -2,67 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .open{
-    height: 300px;
-    transition: height ease 0.3s;
-}
-.close{
-    height: 0px;
-    transition: height ease 0.3s;
-}
-.close .nav-links{
-    transition: height ease 0.3s;
-display: none;
-} */
-
 .hero-transparent {
   background: linear-gradient(to right, white, white, rgba(144, 194, 144, 0));
 }
 
-/* .App{
-    font-family: 'Marck Script', cursive;
-font-family: 'Poppins', sans-serif;
-}
-.logo{
-    font-family: 'Marck Script', cursive;
-    font-family: 'Poppins', sans-serif;
-} */
 .design {
- transform: translateX(0vw);
- display: block;
+  transform: translateX(0vw);
+  display: block;
   animation-name: left-to-right;
   animation-duration: 2s;
   animation-delay: -1s;
 }
 .design2 {
-    transform: translateX(0vw);
-    display: block;
-     animation-name: left-to-right;
-     animation-duration: 2.2s;
-     animation-delay: -1s;
-   }
-   .design3 {
-    transform: translateX(0vw);
-    display: block;
-     animation-name: left-to-right;
-     animation-duration: 2.6s;
-     animation-delay: -1s;
-   }
+  transform: translateX(0vw);
+  display: block;
+  animation-name: left-to-right;
+  animation-duration: 2.2s;
+  animation-delay: -1s;
+}
+.design3 {
+  transform: translateX(0vw);
+  display: block;
+  animation-name: left-to-right;
+  animation-duration: 2.6s;
+  animation-delay: -1s;
+}
 
 @keyframes left-to-right {
-    0% {
-        transform: translateX(140vw);
-        display: block;
-      }
-      50%{
-        transform: translateX(70vw);
-        display: block;
-      }
+  0% {
+    transform: translateX(140vw);
+    display: block;
+  }
+  50% {
+    transform: translateX(70vw);
+    display: block;
+  }
   100% {
     transform: translateX(0vw);
     display: block;
   }
-  0%{
+  0% {
     transform: translateX(0vw);
     display: block;
   }

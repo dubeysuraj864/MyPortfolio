@@ -7,12 +7,7 @@ function Service() {
   return (
     <>
       <div className="service text-center flex-col items-center md:py-10">
-        <div className="my-10 text-3xl font-bold md:text-6xl ">
-          What I Do?
-        </div>
-        {/* <span className="text-green-500 font-bold text-2xl align-center mt-12">
-          What I Do
-        </span> */}
+        <div className="my-10 text-3xl font-bold md:text-6xl ">What I Do?</div>
         <div className="flex-col justify-center my-0 md:flex md:flex-row md:items-center ">
           <div className="m-4   p-4   flex items-center transition rounded-xl border -gray-100">
             <img
@@ -52,10 +47,10 @@ function Service() {
           </div>
         </div>
         <div className="my-10 text-3xl font-bold md:text-6xl mx-auto">
-         Previous Work
+          Previous Work
         </div>
         <div>
-        <Cards />
+          <Cards />
         </div>
       </div>
     </>

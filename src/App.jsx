@@ -9,21 +9,22 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-    
-    <div className="App">
-     
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Navbar className="z-30 drop-shadow-md" />}>
-            <Route index element={<Home/>} />
-            <Route path="/about" element={<About />} />
-            <Route path="/service" element={<Service />} />
-            <Route path="/mywork" element={<MyWork />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-      <Footer/>
-    </div>
+      <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route
+              path="/"
+              element={<Navbar className="z-30" />}
+            >
+              <Route index element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/service" element={<Service />} />
+              <Route path="/mywork" element={<MyWork />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+        <Footer />
+      </div>
     </>
   );
 }

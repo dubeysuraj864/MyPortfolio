@@ -4,7 +4,7 @@ import Linkedin from "../images/linkedin.png";
 function Footer() {
   return (
     <>
-      <div className="footer flex flex-col justify-center pt-20 bg-green-400 px-2 rounded-t-2xl md:bg-gray-200">
+      <div className="footer flex flex-col justify-center pt-20 bg-green-400 px-2 rounded-t-2xl">
         <div className="flex-col justify-between items-center shadow-lg bg-white p-10 rounded-2xl w-fit ml-auto mr-auto mb-16 md:w-3/4 md:flex-row md:flex">
           <div className="left mr-10 ">
             <div className="text-2xl md:text-4xl md:font-bold my-2">Have any project in mind?</div>
