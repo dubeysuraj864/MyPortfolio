@@ -3,7 +3,7 @@ function About() {
     <>
       <div className="about md:py-20 bg-gray-50">
         <div className="container text-center flex-col justify-center items-center py-20 md:py-0  relative md:flex md:flex-row md:justify-around md:items-center md:p-0 md:m-auto">
-          <div className="left md:m-5 pb-20 w-full flex justify-center md:w-1/3 md:p-0  md:flex md:flex-col md:justify-center md:items-center">
+          <div className="left md:m-5 pb-20 w-full flex justify-center md:w-1/3 md:p-0  md:flex md:flex-col md:justify-center md:items-center overflow-hidden">
             <img
               src="https://lh3.googleusercontent.com/sfTSdUg2SG35Jnw__2XNo2Axq9zYvdYT57M5oV34AP7pWXNfpLjXy_9SFt2pvrxSI3Rgq7_J5kmAH8bq1rlhSI0WYe0"
               className="translate-y-[30px] transition-all  w-72 h-72  mx-auto rounded-2xl md:flex md:justify-center"
