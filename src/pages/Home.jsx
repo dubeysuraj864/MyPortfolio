@@ -11,18 +11,21 @@ function Home() {
     <>
       <div className="home relative left-0 top-0 md:h-[auto]  flex justify-center items-center -pt-10 md:py-5 overflow-hidden">
         <div className="container  mr-auto ml-auto p-0 w-full  flex flex-col items-center justify-center md:flex md:flex-row-reverse md:justify-start md:items-start md:w-full md:py-0 md:h-auto">
-          <div className="main-design  absolute  top-0 left-0 bottom-0 md:top-10 md:bottom-auto  md:h-auto my-auto  -right-24 md:top-0 md:right-0  bg-gray-100 mb-20 md:mb-0">
+          <div className="main-design  absolute  top-0 left-0 bottom-0 md:bottom-auto  md:h-auto my-auto  -right-24 md:top-0 md:right-0  bg-gray-100 mb-20 md:mb-0">
             <div className="design w-64 absolute -right-10 top-10 h-32 bg-yellow-300 rounded-l-full shadow-sm"></div>
             <div className="design2 w-96 absolute -right-10 top-44 h-32 mr-5 md:mt-1 bg-green-300 rounded-l-full shadow-sm overflow-hidden">
-          
-                 <img
+              <img
                 className="content-center align-middle flex flex-col items-center "
                 src="https://lh3.googleusercontent.com/e5JwekXvq15I1Wm_LdltLIgkoK9TjBmBO285klC3mjwGpMFeHlQ2S52ORg9gC6lUaMbX3mjc40jPt-hBM-LG8tltcw"
                 alt=""
               />
             </div>
             <div className="design3 w-56 absolute -right-16 top-80 h-32 bg-blue-900 rounded-l-full shadow-lg overflow-hidden">
-              <img         className="content-center align-middle flex flex-col items-center " src="https://lh3.googleusercontent.com/wfP77XiiMlHqlBfVFH3yQiA1x8n9CYS49hp3egKvVXmriumTtHT1Wpt6Jhf5zyhe3TSho73f3p2_DGfue1OI_w-yPQ" alt="" />
+              <img
+                className="content-center align-middle flex flex-col items-center "
+                src="https://lh3.googleusercontent.com/wfP77XiiMlHqlBfVFH3yQiA1x8n9CYS49hp3egKvVXmriumTtHT1Wpt6Jhf5zyhe3TSho73f3p2_DGfue1OI_w-yPQ"
+                alt=""
+              />
             </div>
             <div className="design w-32 absolute right-96 top-10 h-32 bg-blue-400  rounded-full shadow-lg">
               <img
