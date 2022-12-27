@@ -1,16 +1,19 @@
 import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
 import Github from "../images/github.webp";
+import {GiPlagueDoctorProfile} from "react-icons/gi"
 
 function Navbar() {
   const [show, setShow] = useState(false);
   return (
     <>
       <div data-aos="fade-up  " className="">
-        <nav className="px-6 p-6  shadow-sm  md:text-black  md:flex md:justify-around md:items-center md:py-5 text-white ">
+        <nav className="lg:px-36 md:px-38 p-6  shadow-sm  md:text-black  md:flex md:justify-between md:items-center md:py-5 text-white ">
           {show ? (
             <div className="logo flex text-black font-semibold md:text-black justify-between text-3xl bg-clip-text bg-gradient-to-r from-black to-blue-600 text-transparent">
-              <Link to="/">Portfolio.</Link>
+              <Link to="/" className="flex">
+              <GiPlagueDoctorProfile className="text-black mr-2"/>
+                Portfolio.</Link>
               <span
                 onClick={() => {
                   setShow(!show);
@@ -24,7 +27,9 @@ function Navbar() {
             </div>
           ) : (
             <div className="logo flex text-black font-semibold md:text-black justify-between text-3xl">
-              <Link to="/">Portfolio.</Link>
+              <Link to="/" className="flex">
+              <GiPlagueDoctorProfile className="text-black mr-2"/>
+                Portfolio.</Link>
               <span
                 onClick={() => {
                   setShow(!show);

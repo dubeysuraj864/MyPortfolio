@@ -4,14 +4,18 @@ function About() {
     <>
       <div className="about md:py-20 bg-gray-50">
         <div className="container text-center flex-col justify-center items-center py-20 md:py-0  relative md:flex md:flex-row md:justify-around md:items-center md:p-0 md:m-auto">
-          <div className="left md:m-5 pb-20 w-full flex justify-center md:w-1/3 md:p-0  md:flex md:flex-row md:justify-center md:items-center">
-            <img
-              src={outlineMe1}
-              className="translate-y-[30px] absolute transition-all  w-72 h-72 flex justify-center mx-auto rounded-2xl md:flex md:justify-center"
+          <div className="left md:m-5 pb-20 w-full flex justify-center md:w-1/3 md:p-0  md:flex md:flex-col md:justify-center md:items-center">
+          <img
+              src="https://lh3.googleusercontent.com/sfTSdUg2SG35Jnw__2XNo2Axq9zYvdYT57M5oV34AP7pWXNfpLjXy_9SFt2pvrxSI3Rgq7_J5kmAH8bq1rlhSI0WYe0"
+              className="translate-y-[30px] transition-all  w-72 h-72  mx-auto rounded-2xl md:flex md:justify-center"
               alt=""
             />
-
-            <div className="border-white bg-blue-600 hover:transition-all  border-4 p-4 w-80 h-72 rounded-full"></div>
+            <img
+              src="https://lh3.googleusercontent.com/4Q-uRy8pCc4bhg5QSeOQeDwK6XDu4bNGleNVfBmMp0Zdie0vwPoi_AtdYtPV8zBcbOTOL2-QsJ1xc-_P8rI7eU0qQg"
+              className="translate-y-[30px] transition-all  w-72 h-72 flex justify-center mx-auto rounded-2xl md:flex md:justify-center"
+              alt=""
+            />
+         
           </div>
           <div className="right relative w-auto pb-10 pt-2 rounded-2xl md:w-1/2 md:p-0">
             <div className="my-10 text-3xl font-bold md:text-6xl">About Me</div>

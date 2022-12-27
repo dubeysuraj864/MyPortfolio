@@ -48,6 +48,45 @@
 }
 
 @media (max-width: 640px) {
+  .design {
+    transform: translateX(0vw);
+    display: block;
+    animation-name: left-to-right;
+    animation-duration: 2s;
+    animation-delay: -1s;
+  }
+  .design2 {
+    transform: translateX(0vw);
+    display: block;
+    animation-name: left-to-right;
+    animation-duration: 2.2s;
+    animation-delay: -1s;
+  }
+  .design3 {
+    transform: translateX(0vw);
+    display: block;
+    animation-name: left-to-right;
+    animation-duration: 2.6s;
+    animation-delay: -1s;
+  }
+  @keyframes left-to-right {
+    0% {
+      transform: translateX(140vw);
+      display: block;
+    }
+    50% {
+      transform: translateX(70vw);
+      display: block;
+    }
+    100% {
+      transform: translateX(0vw);
+      display: block;
+    }
+    0% {
+      transform: translateX(0vw);
+      display: block;
+    }
+  }
   .hero-transparent {
     background: linear-gradient(to top, white, white, rgba(144, 194, 144, 0));
   }

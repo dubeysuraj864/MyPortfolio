@@ -6,9 +6,9 @@ import Cards from "../components/Cards";
 function Service() {
   return (
     <>
-      <div className="service text-center flex-col items-center md:py-10">
+      <div className="service text-center flex-col  py-5 items-center md:py-10">
         <div className="my-10 text-3xl font-bold md:text-6xl ">What I Do?</div>
-        <div className="flex-col justify-center my-0 md:flex md:flex-row md:items-center ">
+        <div className="flex-col bg-black text-white py-5 justify-center my-0 md:flex md:flex-row md:items-center ">
           <div className="m-4   p-4   flex items-center transition rounded-xl border -gray-100">
             <img
               src={UiUx}
@@ -45,6 +45,7 @@ function Service() {
               Responsive Designing
             </div>
           </div>
+          
         </div>
         <div className="my-10 text-3xl font-bold md:text-6xl mx-auto">
           Previous Work
