@@ -1,4 +1,3 @@
-import outlineMe1 from "../images/meoutline1.webp";
 function About() {
   return (
     <>
