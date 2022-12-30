@@ -11,7 +11,7 @@ function Home() {
     <>
       <div className="home relative left-0 top-0 md:h-[auto]  flex justify-center items-center -pt-10 md:py-5 overflow-hidden">
         <div className="container  mr-auto ml-auto p-0 w-full  flex flex-col items-center justify-center md:flex md:flex-row-reverse md:justify-start md:items-start md:w-full md:py-0 md:h-auto">
-          <div className="main-design  absolute  top-0 left-0 bottom-0 md:bottom-auto  md:h-auto my-auto  -right-24 md:top-0 md:right-0  bg-gray-100 mb-20 md:mb-0">
+          <div className="main-design  ml-[30vw] top-0 left-0 bottom-0 md:bottom-auto  md:h-auto my-auto   md:top-0 md:right-0  bg-gray-100 mb-20 md:mb-0">
             <div className="design w-64 absolute -right-10 top-10 h-32 bg-yellow-300 rounded-l-full shadow-sm"></div>
             <div className="design2 w-96 absolute -right-10 top-44 h-32 mr-5 md:mt-1 bg-green-300 rounded-l-full shadow-sm overflow-hidden">
               <img
@@ -74,19 +74,19 @@ function Home() {
             </div>
           </div>
 
-          <div className="right mr-auto ml-auto  flex justify-center items-start w-full h-80 md:w-2/3 "></div>
-          <div className="left  w-full px-0 text-left md:text-left md:p-0 md:w-4/5 md:h-3/4 z-10 md:flex md:justify-left md:items-center md:ml-0 md:py-5">
-            <div className="w-full h-[50vh] md:h-auto mt-5 md:mt-0 text-center px-5 m-auto flex flex-col justify-end md:justify-center md:items-start items-left md:mx-0 py-5">
+          <div className="left  w-full  px-0 text-left md:text-left md:p-0 md:w-4/5 md:h-3/4 z-10 md:flex md:justify-left md:items-center  md:py-5">
+            <div className="w-full h-[90vh] md:h-auto mt-5 md:mt-0 text-center px-5 m-auto flex flex-col justify-end md:justify-center md:items-start items-left md:mx-0 py-5">
               <div className=" hidden md:block md:text-left text-3xl tracking-wider md:leading-tight md:text-5xl font-bold  py-2 ">
                 Hello, I'm <br /> Suraj Dubey <br />
                 Front-End Developer.
               </div>
-              <div className=" block md:hidden md:text-left text-3xl tracking-wider md:leading-tight md:text-4xl font-bold  py-2 ">
-                Hello, I'm Suraj Dubey <br />
-                Front-End Developer.
+              <div className=" block md:hidden text-left md:text-left text-3xl tracking-wider md:leading-tight md:text-4xl font-bold  py-2 ">
+                <div>Hello, I'm </div>{" "}
+                <div className="text-5xl py-3">Suraj Dubey</div>
+                <div>Front-End Developer.</div>
               </div>
 
-              <p className="w-fit  my-2 text-center md:text-left md:w-4/5 text-gray-700 md:tracking-wider md:my-5 md:leading-6">
+              <p className="w-fit  my-2 text-left md:text-left md:w-4/5 text-gray-700 md:tracking-wider md:my-5 md:leading-6">
                 I'm a Front-End Developer and UI/UX Designer Based in Delhi,
                 India. I Love designing and coding, creating and building holy
                 stuff.
