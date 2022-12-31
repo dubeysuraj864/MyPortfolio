@@ -74,7 +74,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="left  w-full  px-0 text-left md:text-left md:p-0 md:w-4/5 md:h-3/4 z-10 md:flex md:justify-left md:items-center  md:py-5">
+          <div data-aos="fade-right" className="left  w-full  px-0 text-left md:text-left md:p-0 md:w-4/5 md:h-3/4 z-10 md:flex md:justify-left md:items-center  md:py-5">
             <div className="w-full h-[90vh] md:h-auto mt-5 md:mt-0 text-center px-5 m-auto flex flex-col justify-end md:justify-center md:items-start items-left md:mx-0 py-5">
               <div className=" hidden md:block md:text-left text-3xl tracking-wider md:leading-tight md:text-5xl font-bold  py-2 ">
                 Hello, I'm <br /> Suraj Dubey <br />

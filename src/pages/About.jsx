@@ -4,18 +4,18 @@ function About() {
       <div className="about md:py-10 bg-gray-50 xl:px-20">
         <div className="container text-center flex-col justify-center items-center py-20 md:py-0  relative md:flex md:flex-row md:justify-around md:items-center md:p-0 md:m-auto">
           <div className="left md:m-5 pb-20 w-full flex justify-center md:w-1/3 md:p-0  md:flex md:flex-col md:justify-center md:items-center overflow-hidden">
-            <img
+            <img  data-aos="flip-left"
               src="https://lh3.googleusercontent.com/sfTSdUg2SG35Jnw__2XNo2Axq9zYvdYT57M5oV34AP7pWXNfpLjXy_9SFt2pvrxSI3Rgq7_J5kmAH8bq1rlhSI0WYe0"
               className="translate-y-[30px] transition-all  w-72 h-72  mx-auto rounded-2xl md:flex md:justify-center"
               alt=""
             />
-            <img
+            <img data-aos="flip-right"
               src="https://lh3.googleusercontent.com/4Q-uRy8pCc4bhg5QSeOQeDwK6XDu4bNGleNVfBmMp0Zdie0vwPoi_AtdYtPV8zBcbOTOL2-QsJ1xc-_P8rI7eU0qQg"
               className="translate-y-[30px] transition-all  w-72 h-72 flex justify-center mx-auto rounded-2xl md:flex md:justify-center"
               alt=""
             />
           </div>
-          <div className="right relative w-auto pb-10 pt-2 rounded-2xl md:w-1/2 md:p-0">
+          <div data-aos="zoom-in-left" className="right relative w-auto pb-10 pt-2 rounded-2xl md:w-1/2 md:p-0">
             <div className="my-10 text-3xl font-bold md:text-6xl">About Me</div>
             <div className=" px-4 md:px-0 text-justify text-md mx-5 font-normal tracking-wider">
               Hello! My name is Suraj Dubey and I am a UX/UI designer and Front

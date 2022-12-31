@@ -15,10 +15,10 @@ function Mywork() {
   return (
     <>
       <div className="mywork flex flex-col items-center">
-        <div className="my-10 text-3xl text-center font-bold md:text-5xl">
+        <div data-aos="zoom-in-down" className="my-10 text-3xl text-center font-bold md:text-5xl">
           My recent works
         </div>
-        <nav className="flex-col justify-center items-center font-semibold text-center text-white list-none">
+        <nav data-aos="flip-right" className="flex-col justify-center items-center font-semibold text-center text-white list-none">
           <div
             className="m-2 cursor-pointer  px-4 py-2 bg-green-400 rounded-xl w-64"
             onClick={() =>

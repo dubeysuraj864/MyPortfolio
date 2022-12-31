@@ -8,10 +8,10 @@ function Techs() {
   return (
     <>
       <div className="techs bg-black text-white py-5 xl:px-20">
-        <div className=" title my-10 text-2xl font-bold md:text-3xl text-center">
+        <div data-aos="zoom-in" className=" title my-10 text-2xl font-bold md:text-3xl text-center">
           Expertise in Latest Technologies and <br /> It's Frameworks.
         </div>
-        <div className="flex flex-wrap justify-center md:justify-around md:px-24 items-center pb-10">
+        <div data-aos="flip-up" className="flex flex-wrap justify-center md:justify-around md:px-24 items-center pb-10">
           <span className="m-2 text-6xl text-orange-500">
             <ImHtmlFive />
           </span>
