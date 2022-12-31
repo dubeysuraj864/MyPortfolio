@@ -1,19 +1,20 @@
 import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
 import Github from "../images/github.webp";
-import {GiPlagueDoctorProfile} from "react-icons/gi"
+import { GiPlagueDoctorProfile } from "react-icons/gi";
 
 function Navbar() {
   const [show, setShow] = useState(false);
   return (
     <>
       <div data-aos="fade-up  " className="">
-        <nav className="lg:px-36 md:px-38 p-6  shadow-sm  md:text-black  md:flex md:justify-between md:items-center md:py-5 text-white ">
+        <nav className="lg:px-6 md:px-8 p-6  shadow-sm  md:text-black  md:flex md:justify-between md:items-center md:py-5 text-white xl:px-20">
           {show ? (
             <div className="logo flex text-black font-semibold md:text-black justify-between text-3xl bg-clip-text bg-gradient-to-r from-black to-blue-600 text-transparent">
               <Link to="/" className="flex">
-              <GiPlagueDoctorProfile className="text-black mr-2"/>
-                Portfolio.</Link>
+                <GiPlagueDoctorProfile className="text-black mr-2" />
+                Portfolio.
+              </Link>
               <span
                 onClick={() => {
                   setShow(!show);
@@ -28,8 +29,9 @@ function Navbar() {
           ) : (
             <div className="logo flex text-black font-semibold md:text-black justify-between text-3xl">
               <Link to="/" className="flex">
-              <GiPlagueDoctorProfile className="text-black mr-2"/>
-                Portfolio.</Link>
+                <GiPlagueDoctorProfile className="text-black mr-2" />
+                Portfolio.
+              </Link>
               <span
                 onClick={() => {
                   setShow(!show);
@@ -81,7 +83,11 @@ function Navbar() {
                   </Link>
                 </li>
                 <div className="  mx-5 my-2 md:mx-0 md:my-0 md:py-0">
-                  <a href="https://github.com/dubeysuraj864" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://github.com/dubeysuraj864"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     <img src={Github} className="w-8 " alt="" />
                   </a>
@@ -126,7 +132,11 @@ function Navbar() {
                   </Link>
                 </li>
                 <div className=" mx-5 my-2 md:mx-0 md:my-0  md:py-0">
-                  <a href="https://github.com/dubeysuraj864" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://github.com/dubeysuraj864"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     <img src={Github} className="w-8 " alt="" />
                   </a>

@@ -7,7 +7,7 @@ import {DiNodejs} from "react-icons/di";
 function Techs() {
   return (
     <>
-      <div className="techs bg-black text-white py-5">
+      <div className="techs bg-black text-white py-5 xl:px-20">
         <div className=" title my-10 text-2xl font-bold md:text-3xl text-center">
           Expertise in Latest Technologies and <br /> It's Frameworks.
         </div>

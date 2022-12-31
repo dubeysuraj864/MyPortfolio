@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <div className="about md:py-20 bg-gray-50">
+      <div className="about md:py-10 bg-gray-50 xl:px-20">
         <div className="container text-center flex-col justify-center items-center py-20 md:py-0  relative md:flex md:flex-row md:justify-around md:items-center md:p-0 md:m-auto">
           <div className="left md:m-5 pb-20 w-full flex justify-center md:w-1/3 md:p-0  md:flex md:flex-col md:justify-center md:items-center overflow-hidden">
             <img

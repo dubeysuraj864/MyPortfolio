@@ -9,7 +9,7 @@ import { IoCall, IoLogoWhatsapp } from "react-icons/io5";
 function Home() {
   return (
     <>
-      <div className="home relative left-0 top-0 md:h-[auto]  flex justify-center items-center -pt-10 md:py-5 overflow-hidden">
+      <div className="home relative left-0 top-0 md:h-[auto]  flex justify-center items-center -pt-10 md:py-5 overflow-hidden xl:px-20">
         <div className="container  mr-auto ml-auto p-0 w-full  flex flex-col items-center justify-center md:flex md:flex-row-reverse md:justify-start md:items-start md:w-full md:py-0 md:h-auto">
           <div className="main-design  ml-[30vw] top-0 left-0 bottom-0 md:bottom-auto  md:h-auto my-auto   md:top-0 md:right-0  bg-gray-100 mb-20 md:mb-0">
             <div className="design w-64 absolute -right-10 top-10 h-32 bg-yellow-300 rounded-l-full shadow-sm"></div>

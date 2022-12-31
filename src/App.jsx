@@ -13,7 +13,7 @@ const Home = React.lazy(() => import("./pages/Home"));
 function App() {
   return (
     <>
-      <div className="App">
+      <div className="App ">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Navbar className="z-30" />}>
